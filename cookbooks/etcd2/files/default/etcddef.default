@@ -1,0 +1,1 @@
+ETCD_OPTS="-initial-cluster etcdmaster=http://192.168.2.15:2380 -listen-client-urls http://0.0.0.0:2379 -proxy on -data-dir /var/etcd -initial-cluster-state existing"
