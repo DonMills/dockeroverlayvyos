@@ -7,6 +7,7 @@ preconfigured to use the etcd master and running in etcd proxy mode on a second 
 The first step is to edit the vagrantfile to determine the number of minions desired,
 and whether you want the virtualbox provider to open a console window for each server.
 The defaults are one minion, and true on the console display.
+
 ```
 MINION_COUNT = 1
 GUI = true
