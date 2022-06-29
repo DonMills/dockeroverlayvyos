@@ -16,6 +16,7 @@ Then issue a ```vagrant up```, and go get a cold drink...
 
 <h2> Initial Verification </h2>
 First you can check the ip addresses and routes on the docker hosts to show the layer 3 topology:
+
 ```
 vagrant@etcdmaster:~$ ip addr
 ...
@@ -32,6 +33,7 @@ vagrant@etcdmaster:~$ ip route
 ...
 ```
 and
+
 ```
 vagrant@minion0:~$ ip addr
 ...
